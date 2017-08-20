@@ -1,8 +1,8 @@
 ---
-layout: post
 title: "Awakening"
 date: 2004-06-18 13:46:26 -0200
-categories: personal
+layout: post
+categories: personal opinions
 ---
 Many people pass by life... They don't care about it. Usually they are a lot busy thinking about their possessions and their will, in the future, or their memories in the past, but they never live the moment, and so, life pass by them. The most important time, simply pass by, because they never had time...
 
