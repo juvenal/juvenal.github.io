@@ -4,7 +4,7 @@ date: 1997-10-21 12:44:32 -0200
 layout: post
 categories: personal opinions
 ---
-I got a glimpse of the software future, and didn't recognized it...
+I got a glimpse of the software future, and didn't recognized it...<!--more-->
 
 I was used to work with UNIX workstations, mainly SGI IRIX and some Sun Solaris, some years ago (circa 1991). I was eager to be able to run a UNIX like OS on my personal machine (a PC XT that I had at the time). I strongly disliked MS Windows, and the Mac System didn't have a native command prompt at the time (Classic System). The comercial UNIX like systems for the PC were really expensive, and owning a workstation as a home, personal machine was also impractical, either by its price range, as well as by its installation requirements. That was when a friend of mine introduced me to a copy of an open source operating system that was impressively stable and well assembled. I became aware of Linux, by that Slackware distribution (I still have those CDs).
 

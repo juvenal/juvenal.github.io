@@ -4,7 +4,7 @@ date: 2015-12-09 17:01:23 -0200
 layout: post
 categories: work ibm-ltc
 ---
-A new update release for the 9.0 series of the IBM Advance Toolchain for Linux on Power is now available.
+A new update release for the 9.0 series of the IBM Advance Toolchain for Linux on Power is now available.<!--more-->
 
 This is a maintenance release for the 9.0 series (9.0-1) and contains a series of fixes:
 

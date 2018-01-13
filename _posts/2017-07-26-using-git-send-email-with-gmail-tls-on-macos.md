@@ -4,7 +4,7 @@ date: 2017-07-26 20:18:32 -0200
 layout: post
 categories: personal learning
 ---
-I spent some time searching the web for a way to configure and use `git send-email` using `brew`, so the impact on the provided system Perl and other tools is minimized (avoiding sudo completely). But I got disappointed with my findings...
+I spent some time searching the web for a way to configure and use `git send-email` using `brew`, so the impact on the provided system Perl and other tools were minimized (avoiding sudo completely). But I got disappointed with my findings...<!--more-->
 
 They instruct you to use brew's git, but give instructions to install the required perl extensions for TLS SMTP communications into the system Perl, using `sudo` to do so. This definitely wasn't what I was looking for.
 

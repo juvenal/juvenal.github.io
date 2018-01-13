@@ -4,7 +4,7 @@ date: 2015-05-07 16:08:24 -0200
 layout: post
 categories: work ibm-ltc
 ---
-A new update release for the 6.0 series of the Advance Toolchain for Linux on POWER is now available.
+A new update release for the 6.0 series of the Advance Toolchain for Linux on POWER is now available.<!--more-->
 
 This is a maintenance release for the 6.0 series (6.0-7) and contains a series of fixes. Among them, it provides:
 
