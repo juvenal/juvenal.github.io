@@ -16,13 +16,11 @@ This is a maintenance release for the 9.0 series (9.0-1) and contains a series o
   - Always enable pointer guard.
 - libdfp fix for fabs() is returning wrong values for 128-bit.
 
-Also, a tool to download AT is now available at  ftp://ftp.unicamp.br/pub/linuxpatch/toolchain/at/at_downloader/
+Also, a tool to download AT is now available at [ftp.unicamp.br](ftp://ftp.unicamp.br/pub/linuxpatch/toolchain/at/at_downloader/)
 
-For download links, more information and documentation, please refer to our official documentation page.
-
-Please let us know if you have any questions about this release.
+For download links, more information and documentation, please refer to our [official documentation page](http://ibm.co/AdvanceToolchain). Please, [let us know](https://www.ibm.com/developerworks/community/groups/service/html/communityview?communityUuid=fe313521-2e95-46f2-817d-44a4f27eba32#fullpageWidgetId%3DW72c1fc20d34a_4a14_8dec_82de60002bab&forumsPg=null&topicsPg=null) if you have any questions about this release.
 
 #### About the IBM Advance Toolchain for PowerLinux
 
 The IBM Advance Toolchain for PowerLinux is a set of open source development tools (compiler, debugger and profiling tools) and runtime libraries that allow users to take leading edge advantage of IBM's latest POWER hardware features on Linux.
-For more information about it, visit http://ibm.co/AdvanceToolchain.
+For more information about it, visit [our page](http://ibm.co/AdvanceToolchain).

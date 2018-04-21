@@ -13,29 +13,50 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Juvenal A. Silva Jr.
+title: Juvenal's disclosures
+title_image: '/assets/images/title_image.svg'
 email: contact@juvenaljr.com
 description: > # this means to ignore newlines until "baseurl:"
-  The clashing of tech, science, art and lifestyle, as I see it.
+  Those are some of my personal ruminations...
+#  The clashing of tech, science, art and lifestyle, as I see it.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: juvenal_silva
 github_username: juvenal
+linkedin_username: juvenalsilva
+author_name: 'Juvenal A. Silva Jr.'
+author_email: 'contact@juvenaljr.com'
 permalink: pretty
 excerpt_separator: <!--more-->
+
+# Discus comments configuration
+disqus:
+  shortname: juvenaljr
 
 ## Configuration options
 timezone: America/Sao_Paulo
 
 # Build settings
 markdown: kramdown
-theme: minima
-paginate: 5
+mermaid:
+  src: '/assets/scripts/mermaid.min.js'
+  src_config: '/assets/scripts/mermaid_config.js'
 
+# Pagination Settings
+#pagination:
+#  enabled: true
+#  per_page: 5
+#  permalink: '/page/:num/'
+#  title: ' - page :num'
+#  limit: 0
+#  sort_field: 'date'
+#  sort_reverse: true
 
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
+  - jekyll-mermaid
+  - jekyll-pseudocode-b
 exclude:
   - Gemfile
   - Gemfile.lock

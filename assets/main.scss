@@ -1,0 +1,51 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+permalink: /assets/styles/main.css
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family:   "Segoe WP", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:     16px;
+$base-font-weight:   400;
+$small-font-size:    $base-font-size * 0.875;
+$base-line-height:   1.5;
+$header-font-family: "League Spartan";
+$header-font-size:   $base-font-size * 1.375;
+$code-font-family:   "Roboto Mono Light", "Courier New", courier, serif;
+$code-font-size:     $base-font-size * 0.84;
+
+$spacing-unit:       30px;
+
+$grey-color:         #333;
+$grey-color-light:   #444;
+$grey-color-dark:    #222;
+
+$brand-color:        #66bb11; // #B8E986
+$brand-color-triad1: #4310ae;
+$brand-color-triad2: #d46d13;
+$text-color:         #eee;
+$text-color-dark:    darken($text-color, 30%);
+$background-color:   $grey-color;
+$code-background:    $grey-color-dark;
+
+// Syntax Highlight Theme to use
+$syntax-highlight-theme: "monokai";
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// Minima also includes a mixin for defining media queries.
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+// Import partials from the `personal` theme.
+@import "personal";
