@@ -53,6 +53,17 @@ int main(int argc, char *argv[]) {
 }
 ```
 
+```c#
+using System;
+
+public class Hello {
+    public static void Main(string[] args) {
+        Console.WriteLine("Hello, world!");
+    }
+}
+```
+
+
 ```python
 # This is a python snippet
 
