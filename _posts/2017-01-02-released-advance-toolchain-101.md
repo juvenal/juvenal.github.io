@@ -4,7 +4,7 @@ date: 2017-01-02 17:06:43 -0200
 layout: post
 categories: work ibm-ltc
 ---
-A new update release for the 10.0 series of the IBM Advance Toolchain for Linux on Power is now available.<!--more-->
+A new update release for the 10.0 series of the IBM Advance Toolchain for Linux on POWER is now available.<!--more-->
 
 This release provides new features and many package updates, including:
 

@@ -18,20 +18,36 @@ let sampleConstant = 10.2
 var sampleString = "Spell the magic"
 
 func joinStrings() -> String {
-	returnValue = "O valor da constante é: " + sampleConstant.toString()
-	returnValue += "O valor da variavel é: " + sampleString
-	return returnValue
+    returnValue = "O valor da constante é: " + sampleConstant.toString()
+    returnValue += "O valor da variavel é: " + sampleString
+    return returnValue
 }
 ```
+
+{% pseudocode %}
+PrefixTrieMatching(Text, Trie)
+    symbol <- first letter of Text
+    v <- root of Trie
+    while forever
+        if v is a leaf in Trie
+            return the pattern spelled by the path from the root to v
+        else if there is an edge (v, w) in Trie labeled by symbol
+            symbol <- next letter of Text
+            v <- w
+        else
+            output "no matches found"
+            return
+
+{% endpseudocode %}
 
 {% highlight swift linenos %}
 let sampleConstant = 10.2
 var sampleString = "Spell the magic"
 
 func joinStrings() -> String {
-	returnValue = "O valor da constante é: " + sampleConstant.toString()
-	returnValue += "O valor da variavel é: " + sampleString
-	return returnValue
+    returnValue = "O valor da constante é: " + sampleConstant.toString()
+    returnValue += "O valor da variavel é: " + sampleString
+    return returnValue
 }
 {% endhighlight %}
 
@@ -68,7 +84,7 @@ public class Hello {
 # This is a python snippet
 
 def __init__(self):
-	self.data = []
+    self.data = []
 ```
 
 ```javascript
@@ -115,7 +131,7 @@ end program hello
 
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 
-	// Register default values to be used for the first app start
+    // Register default values to be used for the first app start
     [defaults registerDefaults:@{
         MASHardcodedShortcutEnabledKey : @YES,
         MASCustomShortcutEnabledKey : @YES,
@@ -128,22 +144,22 @@ end program hello
 // This is the new Apple Swift language
 
 extension String {
-	func occurrenceOfString(aString: String) -> Int {
-		// New extension members and/or behavior
-		var occurrences: Int = 0
-		var range: Range<String.Index>? = self.starIndex..<self.endIndex
-		while range != nil {
-			// Search in the current range
-			range = self.rangeOfString(aString, options: NSStringCompareOptions.CaseInsensitiveSearch, range: range, locale: nil)
-			if range != nil {
-				// String was found, move the range
-				range = range!.endIndex..<self.endIndex
-				// Increment the number of occurrences
-				occurrences++
-			}
-		}
-		return occurrences
-	}
+    func occurrenceOfString(aString: String) -> Int {
+        // New extension members and/or behavior
+        var occurrences: Int = 0
+        var range: Range<String.Index>? = self.starIndex..<self.endIndex
+        while range != nil {
+            // Search in the current range
+            range = self.rangeOfString(aString, options: NSStringCompareOptions.CaseInsensitiveSearch, range: range, locale: nil)
+            if range != nil {
+                // String was found, move the range
+                range = range!.endIndex..<self.endIndex
+                // Increment the number of occurrences
+                occurrences++
+            }
+        }
+        return occurrences
+    }
 }
 ```
 
@@ -154,7 +170,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("Hello, world!\n")
+    fmt.Printf("Hello, world!\n")
 }
 ```
 
