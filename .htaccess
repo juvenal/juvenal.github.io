@@ -1,0 +1,5 @@
+# Always use https for secure connections
+# (as it appears on your SSL certificate)
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.juvenal.me/$1 [R=301,L]

@@ -1,0 +1,53 @@
+.pseudocode {
+    font-family: "Inconsolata", Courier, monospace;
+    font-size: 16px;
+    white-space: pre-wrap;
+    padding: 0.85em;
+    display: block;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #000;
+    border: 1px #f3f3f3 solid;
+}
+ 
+.symbol 
+{
+    text-transform: lowercase;
+    color: #00F;
+}
+
+.function 
+{
+    text-transform: uppercase;
+    color: #795e26;
+}
+
+.comment
+{
+    color: #008000;
+}
+
+.variable 
+{
+    font-style: italic;
+}
+
+.string
+{
+    color:#a31515;
+}
+
+.numeric
+{
+    color: #09885a;
+}
+  
+.operator
+{
+    color: #000;
+}
+
+.math-symbol
+{
+    color: #af00db;
+}

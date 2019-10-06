@@ -5,29 +5,32 @@ permalink: /assets/styles/main.css
 @charset "utf-8";
 
 // Our variables
-$base-font-family:   "Segoe WP", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:     16px;
-$base-font-weight:   400;
-$small-font-size:    $base-font-size * 0.875;
-$base-line-height:   1.5;
-$header-font-family: "League Spartan";
-$header-font-size:   $base-font-size * 1.375;
-$code-font-family:   "Roboto Mono Light", "Courier New", courier, serif;
-$code-font-size:     $base-font-size * 0.84;
+$base-font-family:    "Segoe WP", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:      16px;
+$base-font-weight:    400;
+$small-font-size:     $base-font-size * 0.875;
+$base-line-height:    1.5;
+$header-font-family:  "League Spartan";
+$header-font-size:    $base-font-size * 1.375;
+$code-font-family:    "Roboto Mono Light", "Courier New", courier, serif;
+$code-font-size:      $base-font-size * 0.84;
 
-$spacing-unit:       30px;
+$spacing-unit:        30px;
 
-$grey-color:         #333;
-$grey-color-light:   #444;
-$grey-color-dark:    #222;
+$grey-color:          #333;
+$grey-color-light:    #444;
+$grey-color-dark:     #222;
 
-$brand-color:        #6b1; // #B8E986
-$brand-color-triad1: #4310ae;
-$brand-color-triad2: #d46d13;
-$text-color:         #eee;
-$text-color-dark:    darken($text-color, 30%);
-$background-color:   $grey-color;
-$code-background:    $grey-color-dark;
+$brand-color:         #6b1; // #B8E986
+$brand-color-triad1:  #41b;
+$brand-color-triad2:  #d71;
+$brand-color1:        #09e; // #B8E986
+$brand-color1-triad1: #fb0;
+$brand-color1-triad2: #f30;
+$text-color:          #eee;
+$text-color-dark:     darken($text-color, 30%);
+$background-color:    $grey-color;
+$code-background:     $grey-color-dark;
 
 // Syntax Highlight Theme to use
 $syntax-highlight-theme: "monokai";
