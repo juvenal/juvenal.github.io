@@ -58,7 +58,7 @@ end
 ~~~
 {: .language-ruby}
 
-```c
+``` c
 /* This is standard C code */
 
 #include <stdio.h>
@@ -69,7 +69,7 @@ int main(int argc, char *argv[]) {
 }
 ```
 
-```c#
+``` c#
 using System;
 
 public class Hello {
@@ -79,15 +79,14 @@ public class Hello {
 }
 ```
 
-
-```python
+``` python
 # This is a python snippet
 
 def __init__(self):
     self.data = []
 ```
 
-```javascript
+``` javascript
 // This is a JavaScript one
 
 var express = require('express'),
@@ -95,7 +94,7 @@ var express = require('express'),
     fs      = require('fs');
 ```
 
-```php
+``` php
 <html>
 <?php
 /* This is PHP in its essence */
@@ -106,7 +105,7 @@ printf("<body>%s</body>\n", $test);
 </html>
 ```
 
-```fortran
+``` fortran
 ! This is the (not so) good and old FORTRAN
 
 program hello
@@ -115,7 +114,7 @@ print *, 'Hello!'
 end program hello
 ```
 
-```objc
+``` objc
 #import <Cocoa.h>
 
 @interface AppDelegate ()
@@ -140,7 +139,7 @@ end program hello
 }
 ```
 
-```swift
+``` swift
 // This is the new Apple Swift language
 
 extension String {
@@ -163,7 +162,7 @@ extension String {
 }
 ```
 
-```go
+``` go
 /* This is Go in it's simplest form */
 package main
 
@@ -174,11 +173,10 @@ func main() {
 }
 ```
 
-```ruby
+``` ruby
 # This is a basic ruby gem ;-) 
 def base
 ```
-
 
 These are sample math formulas:
 
