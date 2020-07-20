@@ -1,4 +1,4 @@
-#ruby=2.1.10@blogset
+#ruby=2.6.3@blogset
 
 source "https://rubygems.org"
 

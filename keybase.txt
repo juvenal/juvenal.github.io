@@ -4,47 +4,49 @@ https://keybase.io/juvenal
 
 I hereby claim:
 
-  * I am an admin of http://juvenaljr.com
+  * I am an admin of https://juvenal.me
   * I am juvenal (https://keybase.io/juvenal) on keybase.
-  * I have a public key ASBq89xdIkRP617e_7-Mr9d--VtCQSVUbbMooG_oUVbSfQo
+  * I have a public key ASDq9_rkGi4SyY5M2kRwovFQPfF4oNc3oTT-915zFD4EFQo
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "010186489b8dc922bda3d031f04d1c014c6edd762e3e17480c1de161dba4caf50a7e0a",
-            "host": "keybase.io",
-            "kid": "01206af3dc5d22444feb5edeffbf8cafd77ef95b424125546db328a06fe85156d27d0a",
-            "uid": "3ebf7e5b7a012042430e157f7fcdb700",
-            "username": "juvenal"
-        },
-        "service": {
-            "hostname": "juvenaljr.com",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "010186489b8dc922bda3d031f04d1c014c6edd762e3e17480c1de161dba4caf50a7e0a",
+      "host": "keybase.io",
+      "kid": "0120eaf7fae41a2e12c98e4cda4470a2f1503df178a0d737a134fef75e73143e04150a",
+      "uid": "3ebf7e5b7a012042430e157f7fcdb700",
+      "username": "juvenal"
     },
-    "client": {
-        "name": "keybase.io go client",
-        "version": "1.0.20"
-    },
-    "ctime": 1491158423,
-    "expire_in": 504576000,
     "merkle_root": {
-        "ctime": 1491158149,
-        "hash": "0007ce258c5683bdfc30e0c80b058532a1e844cbaf7924652e5c5aff706dd20fd64e60a81aaccf9596225e75f0d20590edd118b3f92d51d265f3b184223cf2df",
-        "seqno": 994893
+      "ctime": 1595128544,
+      "hash": "4e3cab7e0e22eb6b15c034eba73f8754737cdc3638f973a7e3a010b9cf6a37e1f419aceee8f67dfb8c87dcf0dbd47e23a30883dac914b0211d0153bb68486315",
+      "hash_meta": "182c450e50d4c67ba7c37ae14d44be462bed18ce214c2ce213406dd5336662d8",
+      "seqno": 17010084
     },
-    "prev": "70387bc0c4d03d503cce6f32fdf9b54776b89538cb58dc41a731aab5d238a28a",
-    "seqno": 21,
-    "tag": "signature"
+    "service": {
+      "entropy": "/fDxHJhDqYIdtuV0Vz59seJ6",
+      "hostname": "juvenal.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1595128625,
+  "expire_in": 504576000,
+  "prev": "b0feaaed41f63137ea90fb1e4a764a791cd8db4bd675201235f714a740915f8d",
+  "seqno": 44,
+  "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgavPcXSJET+te3v+/jK/XfvlbQkElVG2zKKBv6FFW0n0Kp3BheWxvYWTFAvR7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxODY0ODliOGRjOTIyYmRhM2QwMzFmMDRkMWMwMTRjNmVkZDc2MmUzZTE3NDgwYzFkZTE2MWRiYTRjYWY1MGE3ZTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNmFmM2RjNWQyMjQ0NGZlYjVlZGVmZmJmOGNhZmQ3N2VmOTViNDI0MTI1NTQ2ZGIzMjhhMDZmZTg1MTU2ZDI3ZDBhIiwidWlkIjoiM2ViZjdlNWI3YTAxMjA0MjQzMGUxNTdmN2ZjZGI3MDAiLCJ1c2VybmFtZSI6Imp1dmVuYWwifSwic2VydmljZSI6eyJob3N0bmFtZSI6Imp1dmVuYWxqci5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIwIn0sImN0aW1lIjoxNDkxMTU4NDIzLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTExNTgxNDksImhhc2giOiIwMDA3Y2UyNThjNTY4M2JkZmMzMGUwYzgwYjA1ODUzMmExZTg0NGNiYWY3OTI0NjUyZTVjNWFmZjcwNmRkMjBmZDY0ZTYwYTgxYWFjY2Y5NTk2MjI1ZTc1ZjBkMjA1OTBlZGQxMThiM2Y5MmQ1MWQyNjVmM2IxODQyMjNjZjJkZiIsInNlcW5vIjo5OTQ4OTN9LCJwcmV2IjoiNzAzODdiYzBjNGQwM2Q1MDNjY2U2ZjMyZmRmOWI1NDc3NmI4OTUzOGNiNThkYzQxYTczMWFhYjVkMjM4YTI4YSIsInNlcW5vIjoyMSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEBDm/RCibEWGzmR04LQezNMJedWvht8hZmoX2AloZkMWqt5bvTBprRN9Ggzr+O7ijoGqojyHAHHQPdT24PvuWYDqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgY3b+EWpQ4kIafFMLTAxeuRFU3RSU77st/EiQaQiaMe2jdGFnzQICp3ZlcnNpb24B
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg6vf65BouEsmOTNpEcKLxUD3xeKDXN6E0/vdecxQ+BBUKp3BheWxvYWTESpcCLMQgsP6q7UH2MTfqkPseSnZKeRzY20vWdSASNfcUp0CRX43EIJGOiieDvMdRQTHnyZgUiQQdrGFgbWLFXSF//Vbenm/WAgHCo3NpZ8RATLSF2ogPn1IH5e3ThOx9Yo7Q4rtSz7ESYtPBJjLJ2FVkS7+/ptd+BdwsI54cVtCfx07w2muy1rmcDLCKYcxvD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBoDvAy/k72iRyDTudMB1Yjf8Y5HSS+5czkyPgT9io/qo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -52,4 +54,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/juvenal
 
 ==================================================================
-
